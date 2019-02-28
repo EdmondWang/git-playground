@@ -1,3 +1,5 @@
+const winston = require('winston');
+
 let arr = [23, 45, 12, 7, 9, 19, 84];
 
 // arr = [2];
@@ -22,4 +24,5 @@ function selectsort(arr) {
 }
 
 selectsort(arr);
-console.log(arr);
+winston.log('select sort');
+winston.log(arr);
